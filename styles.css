@@ -9,21 +9,16 @@ body {
 #navbar {
   overflow: hidden;
   width: 100%;
-}
-
-#navbar ul {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  list-style-type: none;
-  text-align: left;
+  height: 60px;
   position: fixed;
   top: 0;
-  right: 0;
+  background-color: white;
+  text-align: center;
 }
 
 #navbar li {
   padding: 20px;
+  float: left;
 }
 
 #navbar li:last-child {
@@ -31,6 +26,11 @@ body {
   margin: 8px;
   margin-right: 25px;
   border: 2px solid #c20b08;
+}
+
+#navbar ul {
+  float: right;
+  margin-top: 5px;
 }
 
 a {
@@ -69,6 +69,8 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
+  background-color: white;
+  width: 100%;
 }
 
 
@@ -109,6 +111,8 @@ main {
 
 article {
   margin-bottom: 50px;
+  margin-left: 75px;
+  padding-right: 25px;
 }
 
 h3 {
@@ -129,6 +133,7 @@ ul li {
 .date {
   font-size: 15px;
 }
+
 
 
 
