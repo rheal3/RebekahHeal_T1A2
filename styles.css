@@ -10,10 +10,9 @@ body {
 }
 
 #navbar {
-  overflow: hidden;
   width: 100%;
   height: 60px;
-  position: fixed;
+  position: absolute;
   top: 0;
   background-color: white;
   text-align: center;
@@ -31,10 +30,12 @@ body {
   border: 2px solid #c20b08;
 }
 
-#navbar ul {
+#navbar ul{
   float: right;
   margin-top: 5px;
+  padding-left: 0px;
 }
+
 
 a {
   text-decoration: none;
@@ -49,32 +50,36 @@ h1 {
   margin: 50px 30px 125px 30px;
   margin-bottom: 150px;
   text-align: center;
-  position: absolute;
+  position: relative;
   top: 125px;
 }
 
 .blurb {
-  margin: 30px 30px 30px 20px;
+  margin: 275px 30px 30px 20px;
   font-size: 18px;
-  font-family: 'Bebas Neue', cursive;
   text-align: center;
-  position: absolute;
-  bottom: 100px;
+  left: 0;
 }
 
-img {
+footer#links img {
   width: 35px;
   height: 35px;
   padding-left: 8px;
 }
 
-footer {
+footer#links {
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: white;
   width: 100%;
+  background-color: #fff;
 }
+
+main {
+  margin-bottom: 45px;
+}
+
+
 
 
 
@@ -85,6 +90,7 @@ section.projects {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 85px;
+  margin-bottom: 45px;
 }
 
 .projects img {
@@ -107,15 +113,13 @@ div p {
 /* WRITING CSS */
 main {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
-article {
-  margin-bottom: 50px;
-  margin-left: 75px;
-  padding-right: 25px;
+.posts article {
+  margin: 0px 25px 50px 25px;
 }
 
 h3 {
@@ -128,9 +132,7 @@ h2 {
 
 ul {
   list-style-type: none;
-}
-ul li {
-  display: flex;
+
 }
 
 .date {
@@ -153,7 +155,11 @@ ul li {
 
   /* WRITING CSS */
   main {
-    flex-direction: row;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+  nav.list ul {
+    width: 180px;
   }
 }
 
