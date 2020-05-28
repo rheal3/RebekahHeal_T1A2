@@ -1,9 +1,12 @@
+body#index {
+  background-image: url("copy2.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
 body {
   font-family: 'Bebas Neue', cursive;
-  /* background-image: url("filler.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
 }
 
 #navbar {
