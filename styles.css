@@ -146,11 +146,16 @@ ul {
   h1 {
     font-size: 54px;
   }
+  
   .blurb {
     margin: 30px 300px 30px 20px;
     position: absolute;
     bottom: 100px;
     font-size: 22px;
+  }
+
+  .title {
+    position: absolute;
   }
 
   /* WRITING CSS */
