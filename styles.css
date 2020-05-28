@@ -1,9 +1,12 @@
-body {
-  font-family: 'Bebas Neue', cursive;
+body#index {
   background-image: url("copy2.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
 }
 
 #navbar {
@@ -49,6 +52,7 @@ h1 {
   text-align: center;
   position: relative;
   top: 125px;
+  left: 0;
 }
 
 .blurb {
@@ -143,11 +147,16 @@ ul {
   h1 {
     font-size: 54px;
   }
+
   .blurb {
     margin: 30px 300px 30px 20px;
     position: absolute;
     bottom: 100px;
     font-size: 22px;
+  }
+
+  .title {
+    position: absolute;
   }
 
   /* WRITING CSS */
