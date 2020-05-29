@@ -37,8 +37,8 @@ body {
   float: right;
   margin-top: 5px;
   padding-left: 0px;
+  list-style-type: none;
 }
-
 
 a {
   text-decoration: none;
@@ -88,19 +88,14 @@ section.projects {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 85px;
-  margin-bottom: 45px;
+  margin: 65px 20px 55px 20px;
 }
 
 .projects img {
-  width: 200px;
-  height: 275px;
+  width: 250px;
+  height: 325px;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-div p {
-  text-align: center;
 }
 
 .big {
@@ -110,45 +105,41 @@ div p {
 
 .pro p:last-child {
   width: 220px;
+  text-align: center;
 }
 
 
 /* WRITING CSS */
-/* main {
+section {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 45px;
-} */
-
-.posts article {
-  margin: 25px 25px 50px 25px;
 }
 
-article img{
+.articlelink {
+  width: 250px;
+  height: 325px;
+  border: 2px solid black;
+  background-image: url("filler3.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  position: relative;
+}
+
+.articlelink a {
+  position: absolute;
   width: 100%;
-  height: 200px;
-  margin: 10px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
-h3 {
-  margin-top: 5px;
-  margin-left: 15px;
-}
-
-h2 {
-  margin-bottom: 5px;
-}
-
-ul {
-  list-style-type: none;
-
-}
-
-.date {
-  font-size: 15px;
-}
 
 
 /* CONTACT CSS */
