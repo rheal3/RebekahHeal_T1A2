@@ -108,6 +108,10 @@ div p {
   margin-top: 75px;
 }
 
+.pro p:last-child {
+  width: 220px;
+}
+
 
 /* WRITING CSS */
 main {
