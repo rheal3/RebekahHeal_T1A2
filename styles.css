@@ -140,6 +140,10 @@ section {
   z-index: 1;
 }
 
+div p {
+  text-align: center;
+}
+
 
 
 /* CONTACT CSS */
