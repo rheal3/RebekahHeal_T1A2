@@ -37,10 +37,9 @@ body#writing_index {
   background-color: #fff;
 }
 
-#navbar li:last-child a {
-  color: #c20b08;
+#navbar li:last-child {
   margin-right: 20px;
-  /* border: 2px solid #c20b08; */
+  border: 2px solid #c20b08;
 }
 
 #navbar ul{
