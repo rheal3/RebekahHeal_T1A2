@@ -33,8 +33,9 @@ body {
   background-color: #fff;
 }
 
-#navbar li:last-child {
-  border: 2px solid #c20b08;
+#navbar li:last-child a {
+  color: #c20b08;
+  /* border: 2px solid #c20b08; */
 }
 
 #navbar ul{
