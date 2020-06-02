@@ -3,17 +3,17 @@
 body#index {
   background-image: url("images/Untitled_Artwork.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
 body {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Oswald', sans-serif;
-  /* background-image: url("images/copy2.jpg");
+  background-image: url("images/Untitled_Artwork.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 
 #navbar {
@@ -21,19 +21,19 @@ body {
   height: 60px;
   position: absolute;
   top: 0;
-  background-color: white;
   text-align: center;
 }
 
 #navbar li {
-  padding: 20px;
   float: left;
+  padding: 5px 10px 5px 10px;
+  margin: 8px;
+  margin-right: 20px;
+  border: 2px solid #000;
+  background-color: #fff;
 }
 
 #navbar li:last-child {
-  padding: 10px;
-  margin: 8px;
-  margin-right: 20px;
   border: 2px solid #c20b08;
 }
 
@@ -80,7 +80,6 @@ footer#links {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #fff;
 }
 
 
@@ -231,7 +230,7 @@ p.email {
   body#index {
     background-image: url("images/Untitled_Artwork.jpg");
     background-size: cover;
-    background-position: top;
+    background-position: right;
     background-repeat: no-repeat;
   }
 
