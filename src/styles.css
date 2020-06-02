@@ -8,12 +8,17 @@ body {
   background-repeat: no-repeat;
 }
 
-body#index {
+body#index, body#contact {
   background-position: left;
 }
 
-body#contact {
-  background-position: left;
+body#projects {
+  background-image: url("images/project_img.jpg");
+  background-position: top;
+}
+
+body#writing_index {
+  background-position: bottom;
 }
 
 #navbar {
@@ -147,6 +152,11 @@ div p {
   text-align: center;
 }
 
+.big.writing {
+  text-align: center;
+  margin-left: 0px;
+}
+
 
 /* ARTICLE TITLE CSS */
 .a_title h1 {
@@ -250,6 +260,12 @@ p.email {
   .title {
     position: absolute;
     margin-left: 45px;
+  }
+
+  /* Projects CSS */
+  #projects .big {
+    text-align: right;
+    margin-right: 100px;
   }
 
 }
