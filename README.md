@@ -16,13 +16,7 @@ to perspective employers and provide different methods of contact.
 
 
 **Sitemap**:
-- HOME
-- PROJECTS
-  - links to projects
-- WRITING
-  - ARTICLES
-- CONTACT
-  - RESUME
+![sitemap](./docs/sitemap.jpg)
 
 **Screenshots**:
 
