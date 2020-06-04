@@ -27,26 +27,26 @@ to perspective employers and provide different methods of contact.
 **Screenshots**:
 
 - Wireframes:
-![wireframe home page](./README_img/wf_home.jpg)
-![wireframe projects page](./README_img/wf_portfolio.jpg)
-![wireframe writing page](./README_img/wf_writing.jpg)
-![wireframe article page](./README_img/wf_article.jpg)
-![wireframe contact page](./README_img/wf_contact.jpg)
-![wireframe resume page](./README_img/wf_resume.jpg)
+![wireframe home page](./docs/wf_home.jpg)
+![wireframe projects page](./docs/wf_portfolio.jpg)
+![wireframe writing page](./docs/wf_writing.jpg)
+![wireframe article page](./docs/wf_article.jpg)
+![wireframe contact page](./docs/wf_contact.jpg)
+![wireframe resume page](./docs/wf_resume.jpg)
 
 - Inspiration:
-![inspiration website](./README_img/img1.jpg)
-![inspiration website](./README_img/img2.jpg)
-![inspiration website](./README_img/img3.jpg)
-![inspiration website](./README_img/img4.jpg)
+![inspiration website](./docs/img1.jpg)
+![inspiration website](./docs/img2.jpg)
+![inspiration website](./docs/img3.jpg)
+![inspiration website](./docs/img4.jpg)
 
 - Outcome:
-![home page outcome](./README_img/out_home.jpg)
-![projects page outcome](./README_img/out_portfolio.jpg)
-![writing page outcome](./README_img/out_writing.jpg)
-![article page outcome](./README_img/out_article.jpg)
-![contact page outcome](./README_img/out_contact.jpg)
-![resume page outcome](./README_img/out_resume.jpg)
+![home page outcome](./docs/out_home.jpg)
+![projects page outcome](./docs/out_portfolio.jpg)
+![writing page outcome](./docs/out_writing.jpg)
+![article page outcome](./docs/out_article.jpg)
+![contact page outcome](./docs/out_contact.jpg)
+![resume page outcome](./docs/out_resume.jpg)
 
 
 

@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body {
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif, 'Bebas Neue';
   background-image: url("images/Untitled_Artwork.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,7 +38,6 @@ body#writing_index {
 
 #navbar li:last-child {
   margin-right: 20px;
-  /* border: 2px solid #c20b08; */
 }
 
 #navbar ul{
@@ -90,6 +88,7 @@ footer#links {
   bottom: 0;
   left: 0;
   width: 100%;
+  z-index: 1;
 }
 
 
@@ -97,14 +96,6 @@ footer#links {
 
 
 /* Portfolio CSS */
-/* section.projects {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 65px 20px 55px 20px;
-} */
-
 .projects img {
   width: 250px;
   height: 325px;
@@ -127,7 +118,7 @@ footer#links {
 }
 
 
-/* WRITING CSS */
+/* Writing CSS */
 section {
   display: flex;
   justify-content: space-around;
@@ -177,7 +168,7 @@ div p {
 }
 
 
-/* ARTICLE TITLE CSS */
+/* Article Title CSS */
 #article {
   background-image: none;
 }
@@ -209,7 +200,7 @@ div p {
 
 
 
-/* CONTACT CSS */
+/* Contact CSS */
 main#contact_details {
   display: flex;
   flex-direction: column;
@@ -247,7 +238,7 @@ p.email {
   font-size: 20px;
 }
 
-/* VIRTUAL RESUME CSS */
+/* Virtual Resume CSS */
 #virtual_resume {
   background-image: none;
 }
@@ -261,7 +252,7 @@ p.email {
 
 
 
-
+/* Media Above 598px */
 @media screen and (min-width:598px) {
   body#contact, body#index{
     background-image: url("images/contact_medium.jpg");
@@ -300,6 +291,7 @@ p.email {
     margin-left: 225px;
   }
 
+  /* Article Title CSS */
   .a_content p {
     margin-left: 75px;
     margin-right: 75px;
@@ -307,6 +299,7 @@ p.email {
 
 }
 
+/* Media Above 1200px */
 @media screen and (min-width:1200px) {
   .blurb {
     padding-right: 350px;
@@ -314,16 +307,12 @@ p.email {
     font-size: 22px;
   }
 
-  .employment p {
-    margin-left: 200px;
-    margin-right: 200px;
-  }
-
   body#index {
     background-image: url("images/index_large.jpg");
     background-position: top;
   }
 
+  /* Contact CSS */
   body#contact {
     background-image: url("images/Untitled_Artwork.jpg");
 
@@ -335,6 +324,13 @@ p.email {
     margin-left: 150px;
   }
 
+  /* Virtual Resume CSS */
+  .employment p {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  /* Article Title CSS */
   .a_content p {
     margin-left: 150px;
     margin-right: 150px;
