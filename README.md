@@ -20,7 +20,14 @@ to perspective employers and provide different methods of contact.
 
 **Screenshots**:
 
-- Wireframes:
+- **Inspiration**:
+![inspiration website](./docs/img1.jpg)
+![inspiration website](./docs/img2.jpg)
+![inspiration website](./docs/img3.jpg)
+![inspiration website](./docs/img4.jpg)
+
+
+- **Wireframes**:
 ![wireframe home page](./docs/wf_home.jpg)
 ![wireframe projects page](./docs/wf_portfolio.jpg)
 ![wireframe writing page](./docs/wf_writing.jpg)
@@ -28,13 +35,8 @@ to perspective employers and provide different methods of contact.
 ![wireframe contact page](./docs/wf_contact.jpg)
 ![wireframe resume page](./docs/wf_resume.jpg)
 
-- Inspiration:
-![inspiration website](./docs/img1.jpg)
-![inspiration website](./docs/img2.jpg)
-![inspiration website](./docs/img3.jpg)
-![inspiration website](./docs/img4.jpg)
 
-- Outcome:
+- **Outcome**:
 ![home page outcome](./docs/out_home.jpg)
 ![projects page outcome](./docs/out_portfolio.jpg)
 ![writing page outcome](./docs/out_writing.jpg)
