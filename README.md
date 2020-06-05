@@ -1,7 +1,5 @@
 # Rebekah Heal Portfolio Website
 
-**Website** (no link yet)
-
 [**GIT Repository**](https://github.com/rheal3/RebekahHeal_T1A2)
 
 ## Description

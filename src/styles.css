@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Oswald', sans-serif, 'Bebas Neue';
-  background-image: url("images/Untitled_Artwork.jpg");
+  background-image: url("images/Untitled_Artwork_gold.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -12,7 +12,7 @@ body#index, body#contact {
 }
 
 body#projects {
-  background-image: url("images/project_img.jpg");
+  background-image: url("images/project_img_gold.jpg");
   background-position: top;
 }
 
@@ -66,15 +66,15 @@ h1 {
 }
 
 .blurb {
-  margin: 275px 30px 30px 30px;
+  margin: 150px 30px 30px 30px;
   font-size: 18px;
   text-align: center;
   left: 0;
 }
 
-span {
+/* span {
   color: #c20b08;
-}
+} */
 
 
 footer#links img {
@@ -114,7 +114,7 @@ footer#links {
 
 .pro h2 {
   text-transform: uppercase;
-  color: #c20b08;
+  color: #000;
 }
 
 
@@ -134,7 +134,7 @@ section {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin: 20px;
   position: relative;
@@ -154,7 +154,7 @@ section {
 }
 
 .articlelink h3 {
-  color: #c20b08;
+  color: #000;
   text-transform: uppercase;
 }
 
@@ -206,6 +206,7 @@ main#contact_details {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin-bottom: 45px;
 }
 
@@ -243,10 +244,8 @@ p.email {
   background-image: none;
 }
 .resume h1 {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
-
-
 
 
 
@@ -255,7 +254,7 @@ p.email {
 /* Media Above 598px */
 @media screen and (min-width:598px) {
   body#contact, body#index{
-    background-image: url("images/contact_medium.jpg");
+    background-image: url("images/contact_medium_gold.jpg");
     background-position: right;
   }
 
@@ -270,13 +269,15 @@ p.email {
   .blurb {
     margin: 30px 300px 30px 45px;
     position: absolute;
-    bottom: 100px;
+    bottom: 70px;
     font-size: 20px;
+    width: 309px;
   }
 
   .title {
     position: absolute;
     margin-left: 45px;
+    width: 309px;
   }
 
   /* Projects CSS */
@@ -297,30 +298,41 @@ p.email {
     margin-right: 75px;
   }
 
+  /* Contact CSS */
+  main.contact_details {
+    width: 75%;
+  }
 }
+
 
 /* Media Above 1200px */
 @media screen and (min-width:1200px) {
+  .title {
+    margin-top: 0px;
+    padding-left: 50px;
+  }
+
   .blurb {
     padding-right: 350px;
     padding-left: 50px;
     font-size: 22px;
+    bottom: 70px;
   }
 
   body#index {
-    background-image: url("images/index_large.jpg");
+    background-image: url("images/index_large_gold.jpg");
     background-position: top;
   }
 
   /* Contact CSS */
   body#contact {
-    background-image: url("images/Untitled_Artwork.jpg");
-
+    background-image: url("images/Untitled_Artwork_gold.jpg");
     background-position: bottom;
   }
 
   main#contact_details {
-    margin-right: 450px;
+    width: 45%;
+    margin-right: 475px;
     margin-left: 150px;
   }
 
