@@ -47,3 +47,6 @@ to perspective employers and provide different methods of contact.
 **Target Audience**: Perspective employers in the field of cyber security.
 
 **Tech Stack**: html, css, markdown
+
+
+**NOTE**: If css does not render on page remove SRI hash.
