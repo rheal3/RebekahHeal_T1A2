@@ -49,4 +49,4 @@ to perspective employers and provide different methods of contact.
 **Tech Stack**: html, css, markdown
 
 
-**NOTE**: If css does not render on page remove SRI hash.
+**NOTE**: If CSS does not render on page remove SRI hash from HTML.
